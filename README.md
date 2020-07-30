@@ -10,8 +10,11 @@ To complete this tutorial:
 - (Optional) [Install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 
 ## Create app and run it locally
+- Create a Virtual Environment  (py -3 -m venv env).
+- Activate env (env\scripts\activate). 
+- Install requirements.txt (pip install -r requirements.txt)
 
-First create a root folder, name it e.g. ```flask-quickstart``` and create a single ```app``` folder inside the root folder. Now let's write our app, copy and paste the following code into ```app/main.py```:
+- Then create a root folder, name it e.g. ```flask-quickstart``` and create a single ```app``` folder inside the root folder. Now let's write our app, copy and paste the following code into ```app/main.py```:
 
 ```python
 from flask import Flask
